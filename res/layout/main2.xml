@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF0000"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/testoNero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="背面 - Indietro" />
+
+    <!--
+  <ImageButton
+        android:id="@+id/Image"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+         />
+    -->
+
+    <TextView
+        android:id="@+id/codice"
+        style="@style/testoNero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:textColor="#ffffff"
+        android:textSize="15pt" />
+
+    <Button
+        android:id="@+id/carattere"
+        style="@style/testoNero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:textColor="#ffffff"
+        android:textSize="15pt" />
+
+    <TextView
+        android:id="@+id/fonetica"
+        style="@style/testoNero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:ellipsize="marquee"
+        android:scrollHorizontally="true"
+        android:textColor="#ffffff"
+        android:textSize="15pt" />
+
+    <TextView
+        android:id="@+id/significato"
+        style="@style/testoNero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      	android:lines="3"
+		android:clickable="true"
+		android:onClick="showDef"
+		android:ellipsize="start"
+		android:isScrollContainer="false"
+        android:textColor="#9370DB"
+        android:background="#D3D3D3"
+        android:textSize="8pt" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/testoNero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="向前 - Avanti" />
+
+</LinearLayout>
